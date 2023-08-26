@@ -1,0 +1,90 @@
+.carousel-fade .carousel-item .card-group .card{
+    /* position: absolute; */
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+    opacity: 0.1;
+}
+
+
+/* Card */
+
+.card{
+    
+    background-color: rgba(119, 255, 255, 0.407);
+    border-radius: 50px;
+    margin: 50px 50px 50px;
+    text-align: center;
+    
+}
+
+.cardi img{
+    border-radius: 50px 50px 0px 0px;
+}
+
+/* Packages */
+
+.box{
+    border: 0;
+    height: 400px;
+    width: 300px;
+    margin: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(82, 238, 249, 0.555);
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: inset;
+}
+.box p{
+    padding: 15px;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 200;
+}
+.box h3{
+    font-family: cursive;
+    /* padding-top: 15px; */
+    font-size: x-large;
+}
+
+.box:hover,  .card:hover{
+    background-image: radial-gradient( rgba(255, 255, 255, 0.306),rgb(0, 238, 255),teal) ;    
+    border: 0;
+
+
+    box-shadow: inset;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px rgba(118, 105, 105, 0.6);
+    /* box-decoration-break: clone; */
+}
+
+.box:hover img{
+    width: 300px;
+    height: 200px;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    margin-top: 0px;
+    
+}
+
+.container2{
+    /* margin-left: 10%; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 50px;
+}
+/* Packages */
